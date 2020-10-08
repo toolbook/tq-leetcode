@@ -1,4 +1,4 @@
-package com.tq.code.part1.twoSum;
+package com.tq.code.part1;
 
 import java.util.Arrays;
 
