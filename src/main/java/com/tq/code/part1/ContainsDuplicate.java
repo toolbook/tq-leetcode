@@ -1,5 +1,7 @@
 package com.tq.code.part1;
 
+import java.util.Arrays;
+
 /**
  * @description: 存在重复元素
  * @author: tq
@@ -30,4 +32,37 @@ package com.tq.code.part1;
  * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  **/
 public class ContainsDuplicate {
+    public static void main(String[] args) {
+        int[] arr={1,31,13,2,3,17};
+        //int[] arr={2,14,18,22,22};
+        System.out.println(containsDuplicate(arr));
+    }
+    public static boolean containsDuplicate(int[] nums){
+        if (nums==null) return false;
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
+        for (int i = 0; i < nums.length-1; i++) {
+            if (nums[i]==nums[i+1]) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 超时
+     * @param nums
+     * @return
+     */
+//    public static boolean containsDuplicate(int[] nums){
+//        if (nums==null) return false;
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i+1; j < nums.length; j++) {
+//                if(nums[i]==nums[j]){
+//                    return true;
+//                }
+//            }
+//        }
+//        return false;
+//    }
 }

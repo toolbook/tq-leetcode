@@ -10,7 +10,7 @@
 | 3    | [single-number](https://leetcode-cn.com/problems/single-number/) | 只出现一次的数字       |   Java   |    Easy    | 数组       |
 | 4    |                           Solution                           | 合并两个有序数组       |   Java   |    Easy    | 排序和搜索 |
 | 5    | [remove-duplicates-from-sorted-array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/) | 删除排序数组中的重复项 |   Java   |    Easy    | 数组       |
-|      |                                                              |                        |          |            |            |
+| 6    | [contains-duplicate](https://leetcode-cn.com/problems/contains-duplicate/solution/) | 存在重复元素           |   Java   |    Easy    | 数组       |
 |      |                                                              |                        |          |            |            |
 
 [极客时间-谭超](https://time.geekbang.org/course/detail/100019701-41551)
